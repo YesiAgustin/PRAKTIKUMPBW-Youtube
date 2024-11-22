@@ -1,3 +1,4 @@
 <x-app-layout title="gallery">
-    Galerry
+<x-slot name="heading">Gallery</x-slot:heading>
+gallery Content
 </x-app-layout>
