@@ -1,4 +1,4 @@
-<nav class="bg-gray-800">
+<nav class="bg-zinc-800">
 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     
     <div class="flex items-center">
@@ -24,7 +24,7 @@
     </div>
     <div class="-mr-2 flex md:hidden">
       <!-- Mobile menu button -->
-      <button type="button" class="relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" aria-controls="mobile-menu" aria-expanded="false">
+      <button type="button" class="relative inline-flex items-center justify-center rounded-md bg-zinc-800 p-2 text-zinc-400 hover:bg-zinc-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" aria-controls="mobile-menu" aria-expanded="false">
         <span class="absolute -inset-0.5"></span>
         <span class="sr-only">Open main menu</span>
         <!-- Menu open: "hidden", Menu closed: "block" -->
@@ -49,14 +49,14 @@
      <x-navbar.dropdown-item href="/contact"> Contact </x-navbar.dropdown-link>
      <x-navbar.dropdown-item href="/gallery"> Gallery </x-navbar.dropdown-link>
   </div>
-  <div class="border-t border-gray-700 pb-3 pt-4">
+  <div class="border-t border-zinc-700 pb-3 pt-4">
     <div class="flex items-center px-5">
       <div class="shrink-0">
         <img class="size-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
       </div>
       <div class="ml-3">
         <div class="text-base/5 font-medium text-white">Tom Cook</div>
-        <div class="text-sm font-medium text-gray-400">tom@example.com</div>
+        <div class="text-sm font-medium text-zinc-400">tom@example.com</div>
       </div>
       <button type="button" class="relative ml-auto shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
         <span class="absolute -inset-1.5"></span>
@@ -67,9 +67,9 @@
       </button>
     </div>
     <div class="mt-3 space-y-1 px-2">
-      <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Your Profile</a>
-      <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Settings</a>
-      <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Sign out</a>
+      <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-zinc-400 hover:bg-zinc-700 hover:text-white">Your Profile</a>
+      <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-zinc-400 hover:bg-zinc-700 hover:text-white">Settings</a>
+      <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-zinc-400 hover:bg-zinc-700 hover:text-white">Sign out</a>
     </div>
   </div>
 </div>
@@ -78,7 +78,7 @@
 @isset($heading)
 <header class="bg-white shadow">
 <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-  <h1 class="text-3xl font-bold tracking-tight text-gray-900">{{ $heading }}</h1>
+  <h1 class="text-3xl font-bold tracking-tight text-zinc-900">{{ $heading }}</h1>
 </div>
 </header>
 @endisset
