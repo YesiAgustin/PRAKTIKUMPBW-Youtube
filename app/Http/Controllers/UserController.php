@@ -2,17 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use GuzzleHttp\Promise\Create;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
-
+use \App\Models\User;
+use \Illuminate\Support\Facades\DB;
 class UserController extends Controller
 {
     public function index()
     {
-        $users = DB::table('users')
-        ->get();
+       $users = User::query()->latest()->get();
 
-        dd($users);
+       return view('users.index', [
+             'users'=>$users,
+       ]);
     }
 }
