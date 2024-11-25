@@ -20,3 +20,5 @@
 ![image](https://github.com/user-attachments/assets/80738ed4-3329-4a53-997e-79cdb5d1ea4e)
 ![image](https://github.com/user-attachments/assets/cc208707-8f3f-45cb-8ee6-7fe935bc8f98)
 
+#Video 7
+![image](https://github.com/user-attachments/assets/b43bc197-55aa-4339-99e7-1bfce99ff406)
