@@ -14,4 +14,8 @@ class UserController extends Controller
              'users'=>$users,
        ]);
     }
+    public function create()
+    {
+        return view('users.create');
+    }
 }
