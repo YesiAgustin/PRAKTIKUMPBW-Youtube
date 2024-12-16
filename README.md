@@ -30,3 +30,5 @@
 ![image](https://github.com/user-attachments/assets/bd716bd4-79db-4129-a754-3b64b431bb6c)
 ![image](https://github.com/user-attachments/assets/7da30318-b0de-4356-b4b7-68833ca0cc43)
 
+# Video 10
+![image](https://github.com/user-attachments/assets/84681d85-a823-4bf8-b545-7a0c051424e4)
