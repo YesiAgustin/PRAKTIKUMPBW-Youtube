@@ -35,6 +35,11 @@
             <x-table.td>{{ $user->name}}</x-table.td>
             <x-table.td>{{ $user->email }}</x-table.td>
             <x-table.td>{{ (new \Carbon\Carbon($user->published_at))->format ('d F Y')}}</x-table.td>
+            <x-table.td>
+                <a href="/users/{{ $user->id }}">
+                    View
+                </a>
+            </x-table.td>
         </tr>
         @endforeach
         </x-table.tbody>
