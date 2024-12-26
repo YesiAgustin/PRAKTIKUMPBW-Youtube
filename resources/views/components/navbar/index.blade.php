@@ -11,10 +11,10 @@
             aria-current="page 
             -->
           <x-navbar.link href="/">Home</x-navbar.nav-link>
-          <x-navbar.link href="/about">About</x-navbar.nav-link>
+          <x-navbar.link href="{{ route('about') }}">About</x-navbar.nav-link>
           <x-navbar.link href="/contact">Contact</x-navbar.nav-link>
           <x-navbar.link href="/gallery">Gallery</x-navbar.nav-link>
-          <x-navbar.link href="/users">Users</x-navbar.nav-link>
+          <x-navbar.link href="{{ route('users.index') }}">Users</x-navbar.nav-link>
         </div>
       </div>
     </div>
@@ -46,9 +46,10 @@
   <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
      <x-navbar.dropdown-item href="/"> Home </x-navbar.dropdown-link>
-     <x-navbar.dropdown-item href="/about"> About </x-navbar.dropdown-link>
+     <x-navbar.dropdown-item href="{{ route('about') }}"> About </x-navbar.dropdown-link>
      <x-navbar.dropdown-item href="/contact"> Contact </x-navbar.dropdown-link>
      <x-navbar.dropdown-item href="/gallery"> Gallery </x-navbar.dropdown-link>
+     <x-navbar.dropdown-item href="{{ route('users.index') }}"> Users </x-navbar.dropdown-link>
   </div>
   <div class="border-t border-zinc-700 pb-3 pt-4">
     <div class="flex items-center px-5">
