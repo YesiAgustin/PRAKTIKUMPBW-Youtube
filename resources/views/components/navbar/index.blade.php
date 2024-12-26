@@ -14,7 +14,25 @@
           <x-navbar.link href="{{ route('about') }}">About</x-navbar.nav-link>
           <x-navbar.link href="/contact">Contact</x-navbar.nav-link>
           <x-navbar.link href="/gallery">Gallery</x-navbar.nav-link>
+
+        @auth
           <x-navbar.link href="{{ route('users.index') }}">Users</x-navbar.nav-link>
+        @endauth
+        
+          @auth
+
+             <x-navbar.link href="#">
+               {{ auth()->user()->name }}
+             </x-navbar.nav-link>
+             <form action=" {{ route('logout') }}" method="post">
+                @csrf
+                <x-button type="submit">
+                  Log Out
+                </x-button>
+             </form>
+            @else
+                 <x-navbar.link href="{{ route('login') }}">Login</x-navbar.nav-link>
+            @endauth
         </div>
       </div>
     </div>
