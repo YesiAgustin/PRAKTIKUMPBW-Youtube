@@ -48,3 +48,6 @@
 # Video 15
 ![image](https://github.com/user-attachments/assets/e315ac4c-1741-47f9-b206-bc69312a1815)
 
+# Video 16 
+![image](https://github.com/user-attachments/assets/041703f8-0a43-4e45-b8a3-6d0307206670)
+
